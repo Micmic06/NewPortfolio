@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/christian-miclat-portfolio' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/christian-miclat-portfolio/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/NewPortfolio' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/NewPortfolio/' : '',
 }
 
 module.exports = nextConfig
